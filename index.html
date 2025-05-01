@@ -23,6 +23,15 @@
     .insta-button img {
       height: 18px;
     }
+    .music-notes {
+      animation: float 2s infinite;
+      font-size: 24px;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); opacity: 1; }
+      50% { transform: translateY(-10px); opacity: 0.7; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
   </style>
 </head>
 <body>
@@ -32,6 +41,10 @@
     <p>Your community karaoke & café hub</p>
     <div class="hero-imgs">
       <img src="founders.png" alt="Moses, Kara, and Natsumi" class="founders" />
+    </div>
+    <div>
+      <audio id="anthem" src="Swushi Co Anthem.mp3" autoplay loop volume="0.1" controls></audio>
+      <span class="music-notes">🎶 🎵 🎶</span>
     </div>
   </header>
 
