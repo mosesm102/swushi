@@ -5,6 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Swushi Co</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .insta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: #E1306C;
+      color: white;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .insta-button:hover {
+      background: #c1285c;
+    }
+    .insta-button img {
+      height: 18px;
+    }
+  </style>
 </head>
 <body>
   <header class="hero">
@@ -21,7 +40,10 @@
     <a href="#menu">Menu</a>
     <a href="#book">Book a Room</a>
     <a href="#contact">Contact</a>
-    <a href="https://www.instagram.com/swushico" target="_blank">Instagram</a>
+    <a href="https://www.instagram.com/swushico" target="_blank" class="insta-button">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon" />
+      Instagram
+    </a>
   </nav>
 
   <section id="about">
