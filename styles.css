@@ -27,6 +27,7 @@ header.hero {
   background: #ff6565;
   gap: 2rem;
   padding: 1rem;
+  flex-wrap: wrap;
 }
 
 .navbar a {
@@ -45,6 +46,7 @@ section {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .kara img {
